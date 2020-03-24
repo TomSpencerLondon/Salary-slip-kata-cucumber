@@ -2,7 +2,7 @@ package com.codurance;
 
 import java.math.BigDecimal;
 
-import static java.math.BigDecimal.ROUND_HALF_UP;
+import static java.math.RoundingMode.HALF_UP;
 
 class NationalInsurance {
 
@@ -50,11 +50,11 @@ class NationalInsurance {
   }
 
   private BigDecimal multiply(BigDecimal amount, double multiplicand) {
-    return amount.multiply(BigDecimal.valueOf(multiplicand)).setScale(2, ROUND_HALF_UP);
+    return amount.multiply(BigDecimal.valueOf(multiplicand)).setScale(2, HALF_UP);
   }
 
   private static BigDecimal twoDecimalCases(double source) {
-    return new BigDecimal(source).setScale(2, ROUND_HALF_UP);
+    return new BigDecimal(source).setScale(2, HALF_UP);
   }
 
 }
