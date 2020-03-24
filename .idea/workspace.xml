@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0e195d8-6125-4a75-88bd-01d83af9b37f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/codurance/SalarySlipGeneratorShould.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/codurance/SalarySlipShould.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/codurance/TaxInfoShould.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/NationalInsurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/NationalInsurance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/GenerateSalarySlip.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/GenerateSalarySlip.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/NationalInsurance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/NationalInsurance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/SalarySlip.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/SalarySlip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/SalarySlipGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/SalarySlipGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/TaxInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/TaxInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/acceptance/steps/GenerateSalarySlipFeature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/acceptance/steps/GenerateSalarySlipFeature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/EmployeeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/EmployeeBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/RunCukeWithJUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/RunCukeWithJUnit.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,9 +36,11 @@
   <component name="ProjectId" id="1ZY2DPNdXfxX1lGG8pEcQB0GBcv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../trivia/java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -36,7 +50,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.36972195" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -55,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TaxInfoShould">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -94,8 +108,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SalarySlipGeneratorShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SalarySlip" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codurance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codurance" />
+      <option name="MAIN_CLASS_NAME" value="com.codurance.SalarySlipGeneratorShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalarySlipShould.inform_monthly_tax_payable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SalarySlip" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codurance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codurance" />
+      <option name="MAIN_CLASS_NAME" value="com.codurance.SalarySlipShould" />
+      <option name="METHOD_NAME" value="inform_monthly_tax_payable(java.math.BigDecimal,java.math.BigDecimal)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaxInfoShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SalarySlip" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codurance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codurance" />
+      <option name="MAIN_CLASS_NAME" value="com.codurance.TaxInfoShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TaxInfoShould" />
+        <item itemvalue="JUnit.SalarySlipShould.inform_monthly_tax_payable" />
+        <item itemvalue="JUnit.SalarySlipGeneratorShould" />
         <item itemvalue="Cucumber java.Feature: GenerateSalarySlip" />
       </list>
     </recent_temporary>
@@ -110,7 +173,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585001586973</updated>
-      <workItem from="1585001593078" duration="5748000" />
+      <workItem from="1585001593078" duration="11646000" />
     </task>
     <servers />
   </component>

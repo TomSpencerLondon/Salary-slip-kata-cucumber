@@ -1,4 +1,3 @@
---strict
 Feature: Generate Salary Slip
 
   Scenario Outline: Generate salary slip with different taxation
