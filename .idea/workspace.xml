@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0e195d8-6125-4a75-88bd-01d83af9b37f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/codurance/SalarySlipGeneratorShould.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/codurance/SalarySlipShould.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/codurance/TaxInfoShould.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/GenerateSalarySlip.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/GenerateSalarySlip.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/NationalInsurance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/NationalInsurance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/SalarySlip.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/SalarySlip.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/SalarySlipGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/SalarySlipGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/TaxInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/TaxInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/acceptance/steps/GenerateSalarySlipFeature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/acceptance/steps/GenerateSalarySlipFeature.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/EmployeeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/EmployeeBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/RunCukeWithJUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/RunCukeWithJUnit.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,10 +24,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../trivia/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AWSProfileCLI" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -69,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TaxInfoShould">
+  <component name="RunManager" selected="Java Scratch.Scratch">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -154,8 +142,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="JUnit.TaxInfoShould" />
         <item itemvalue="JUnit.SalarySlipShould.inform_monthly_tax_payable" />
         <item itemvalue="JUnit.SalarySlipGeneratorShould" />
@@ -173,8 +169,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585001586973</updated>
-      <workItem from="1585001593078" duration="11646000" />
+      <workItem from="1585001593078" duration="12294000" />
+      <workItem from="1585613732845" duration="3457000" />
     </task>
+    <task id="LOCAL-00001" summary="Add tests for TaxInfoShould">
+      <created>1585089208814</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585089208814</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,10 +190,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add tests for TaxInfoShould" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tests for TaxInfoShould" />
   </component>
 </project>
